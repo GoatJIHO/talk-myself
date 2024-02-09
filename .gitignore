@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.backend/backend/chatbot/migrations
+.backend/backend/backend/__pycache__
+# dependencies
+.frontend/chatbot/node_modules
+.frontend/chatbot/.pnp
+.frontend/chatbot/.pnp.js
+
+# testing
+.frontend/chatbot/coverage
+
+# production
+.frontend/chatbot/build
+
+# misc
+.frontend/chatbot/.DS_Store
+.frontend/chatbot/.env.local
+.frontend/chatbot/.env.development.local
+.frontend/chatbot/.env.test.local
+.frontend/chatbot/.env.production.local
+
+.frontend/chatbot/npm-debug.log*
+.frontend/chatbot/yarn-debug.log*
+.frontend/chatbot/yarn-error.log*
